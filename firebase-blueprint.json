@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "UserProfile": {
+      "fields": {
+        "id": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "schoolName": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "Student": {
+      "fields": {
+        "id": { "type": "string" },
+        "admissionNumber": { "type": "string" },
+        "rollNumber": { "type": "string" },
+        "fullName": { "type": "string" },
+        "gender": { "type": "string" },
+        "className": { "type": "string" },
+        "section": { "type": "string" },
+        "academicYear": { "type": "string" },
+        "fatherName": { "type": "string" },
+        "motherName": { "type": "string" },
+        "phone": { "type": "string" },
+        "caste": { "type": "string" },
+        "dob": { "type": "string" },
+        "admissionDate": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "AttendanceRecord": {
+      "fields": {
+        "id": { "type": "string" },
+        "studentId": { "type": "string" },
+        "date": { "type": "string" },
+        "status": { "type": "string" },
+        "remark": { "type": "string" },
+        "markedBy": { "type": "string" },
+        "markedAt": { "type": "string" },
+        "className": { "type": "string" },
+        "section": { "type": "string" }
+      }
+    }
+  }
+}

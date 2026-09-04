@@ -1,0 +1,6 @@
+{
+  "name": "Sungabha Connect",
+  "description": "Official Digital School Operating System for Sungabha Public Secondary School, Sainamaina-03, Rupandehi, Nepal (ISO 9001:2015 Certified).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
